@@ -1,24 +1,27 @@
 <!DOCTYPE html>
- <html>
-   <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Facebook</title>
-   </head>
-      <body>
-        <!-- "meiof" serve para centralizar os inputs e textos.-->
-        <div class="meiof">
-          <h2>
-            Facebook
-         </h2>
-         <p>
-           Entrar no Facebook
-         </p>   
-         <input type="text" placeholder="Email ou telefone" required>
-         <br><br>
-         <input type="text" placeholder="Senha" required> 
-         <br><br>
-         <button class="botao">Entrar</button>  
-         
-        </div>
-      </body>
- </html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Facebook</title>
+</head>
+
+<body>
+  <!-- "meiof" serve para centralizar os inputs e textos.-->
+  <div class="meiof">
+    <h2>
+      Facebook
+    </h2>
+    <p>
+      Entrar no Facebook
+    </p>
+    <input type="text" placeholder="Email ou telefone" required id="email">
+    <br><br>
+    <input type="text" placeholder="Senha" required id="senha">
+    <br><br>
+    <button class="botao" onclick="logar()">Entrar</button>
+  </div>
+</body>
+
+</html>
